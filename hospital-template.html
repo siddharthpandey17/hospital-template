@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XYZ Hospital — Best Hospital in [City] | 24x7 Emergency Care</title>
+<meta name="description" content="XYZ Hospital, [City]: 24x7 emergency, experienced doctors, ICU, diagnostics, Ayushman Bharat & cashless TPA support. Book your appointment today.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Hospital","name":"XYZ Hospital","url":"https://yourdomain.com","telephone":"+91-00000-00000","address":{"@type":"PostalAddress","addressLocality":"[City]","addressRegion":"[State]","addressCountry":"IN"},"openingHours":"Mo-Su 00:00-23:59","medicalSpecialty":["Emergency","Orthopedic","Gynecologic","Pediatric"]}
+</script>
+<style>
+:root{--blue:#0B5D7A;--teal:#12A594;--red:#D62839;--ink:#0F2430;--mut:#5B7382;--bg:#F5FAFB;--line:#DCE9ED;--wa:#25D366}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:'Figtree',sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+h1,h2,h3{font-family:'Lexend',sans-serif;line-height:1.2;color:var(--ink)}
+a{text-decoration:none;color:inherit}
+.w{max-width:1100px;margin:0 auto;padding:0 22px}
+.rv{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+.rv.in{opacity:1;transform:none}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(214,40,57,.5)}100%{box-shadow:0 0 0 14px rgba(214,40,57,0)}}
+.top{background:var(--blue);color:#fff;font-size:.82rem;padding:7px 0}
+.top .w{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.top b{color:#FFD9DD}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+header .w{display:flex;align-items:center;justify-content:space-between;height:68px;position:relative}
+.logo{font-family:'Lexend',sans-serif;font-weight:700;font-size:1.15rem;color:var(--blue)}
+.logo span{color:var(--teal)}
+nav{display:flex;align-items:center;gap:4px}
+nav a{padding:8px 12px;font-size:.9rem;font-weight:500;color:var(--mut);border-radius:8px}
+nav a:hover{color:var(--blue);background:var(--bg)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:13px 22px;border-radius:10px;font-weight:600;font-size:.92rem;border:0;cursor:pointer;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)}
+.b-red{background:var(--red);color:#fff;animation:pulse 2s infinite}
+.b-blue{background:var(--blue);color:#fff}
+.b-wa{background:var(--wa);color:#073B1C}
+.b-out{background:#fff;color:var(--blue);border:1.5px solid var(--blue)}
+nav .btn{padding:9px 16px;color:#fff;margin-left:6px}
+.mt{display:none;background:none;border:1px solid var(--line);border-radius:8px;padding:8px;cursor:pointer;flex-direction:column;gap:4px}
+.mt i{display:block;width:20px;height:2px;background:var(--ink)}
+.hero{background:linear-gradient(135deg,#E8F6F7 0%,#F5FAFB 60%);padding:64px 0 56px}
+.hg{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.tag{display:inline-block;background:#fff;border:1px solid var(--line);color:var(--blue);font-size:.78rem;font-weight:600;padding:6px 14px;border-radius:30px;margin-bottom:18px}
+.hero h1{font-size:clamp(2rem,4.6vw,3.1rem);font-weight:700}
+.hero h1 em{font-style:normal;color:var(--teal)}
+.hero p{color:var(--mut);margin:16px 0 26px;max-width:480px}
+.cta{display:flex;gap:12px;flex-wrap:wrap}
+.hc{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:0 20px 40px rgba(11,93,122,.1)}
+.hc .r{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+.hc .r:last-child{border:0}
+.hc .ic{width:44px;height:44px;border-radius:12px;background:#E3F6F3;display:grid;place-items:center;font-size:1.2rem}
+.hc b{display:block;font-family:'Lexend',sans-serif;font-size:1rem}
+.hc small{color:var(--mut)}
+.trust{background:#fff;border-block:1px solid var(--line);padding:18px 0}
+.trust .w{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:center;font-weight:600;font-size:.88rem;color:var(--blue)}
+.trust span:before{content:"✓ ";color:var(--teal)}
+.sec{padding:72px 0}
+.sh{max-width:560px;margin:0 auto 40px;text-align:center}
+.sh small{font-weight:600;color:var(--teal);letter-spacing:.08em;text-transform:uppercase;font-size:.75rem}
+.sh h2{font-size:1.9rem;margin:8px 0}
+.sh p{color:var(--mut)}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.c{background:#fff;border:1px solid var(--line);border-radius:16px;padding:24px;transition:transform .2s,box-shadow .2s,border-color .2s}
+.c:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(11,93,122,.12);border-color:var(--teal)}
+.c .ic{font-size:1.6rem;margin-bottom:10px}
+.c h3{font-size:1.02rem;margin-bottom:6px}
+.c p{color:var(--mut);font-size:.88rem}
+.dr .av{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--blue),var(--teal));color:#fff;display:grid;place-items:center;font-family:'Lexend',sans-serif;font-weight:600;margin-bottom:12px}
+.dr .q{color:var(--blue);font-weight:600;font-size:.84rem}
+.dr .t{margin-top:10px;font-size:.82rem;background:var(--bg);border-radius:8px;padding:8px 10px;color:var(--mut)}
+.alt{background:#fff;border-block:1px solid var(--line)}
+.st{color:#F5A623;letter-spacing:2px;margin-bottom:8px}
+.rvw p{font-style:italic;font-size:.92rem;margin-bottom:10px}
+.rvw small{color:var(--mut);font-weight:600}
+.tabs{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:26px}
+.tab{padding:8px 18px;border-radius:30px;border:1px solid var(--line);background:#fff;font:600 .82rem 'Figtree';cursor:pointer;color:var(--mut)}
+.tab.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+.gi{height:150px;border-radius:14px;display:grid;place-items:center;color:#fff;font-weight:600;font-size:.85rem;background:linear-gradient(135deg,var(--blue),var(--teal));transition:transform .2s}
+.gi:hover{transform:scale(1.03)}
+.gi.h{display:none}
+.bk{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start}
+.bk h2{font-size:1.8rem;margin-bottom:10px}
+.bk>div>p{color:var(--mut);margin-bottom:18px}
+.ct div{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);font-size:.92rem}
+.ct div:last-child{border:0}
+.ct b{min-width:78px;color:var(--blue)}
+form{background:#fff;border:1px solid var(--line);border-radius:18px;padding:28px;box-shadow:0 16px 36px rgba(11,93,122,.08)}
+.f{margin-bottom:14px}
+.f label{display:block;font-size:.82rem;font-weight:600;margin-bottom:5px}
+.f input,.f select,.f textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:10px;font:400 .92rem 'Figtree';background:var(--bg);transition:border-color .2s,box-shadow .2s}
+.f input:focus,.f select:focus,.f textarea:focus{outline:0;border-color:var(--teal);box-shadow:0 0 0 3px rgba(18,165,148,.15)}
+.f.e input,.f.e select{border-color:var(--red)}
+.em{color:var(--red);font-size:.76rem;margin-top:4px;display:none}
+.f.e .em{display:block}
+.map{margin-top:16px;height:120px;border-radius:14px;background:repeating-linear-gradient(45deg,#E8F6F7,#E8F6F7 12px,#F5FAFB 12px,#F5FAFB 24px);display:grid;place-items:center;border:1px solid var(--line)}
+footer{background:var(--ink);color:#B8CBD4;padding:44px 0 90px;font-size:.86rem}
+.fg{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px;margin-bottom:22px}
+footer h4{color:#fff;font-family:'Lexend';font-size:.92rem;margin-bottom:10px}
+footer li{list-style:none;margin-bottom:6px}
+footer a:hover{color:var(--teal)}
+.cp{border-top:1px solid #1E3A48;padding-top:16px;text-align:center;font-size:.8rem}
+.bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(0,0,0,.08)}
+.bar a{flex:1;text-align:center;padding:13px 4px;font-weight:600;font-size:.82rem}
+@media(max-width:800px){
+.mt{display:flex}
+nav{display:none;position:absolute;top:100%;left:0;right:0;background:#fff;border:1px solid var(--line);flex-direction:column;align-items:stretch;padding:12px;box-shadow:0 12px 24px rgba(0,0,0,.1)}
+nav.o{display:flex}
+.hg,.bk,.fg{grid-template-columns:1fr}
+.bar{display:flex}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<!--
+=== HOSPITAL WEBSITE TEMPLATE — Find & Replace these tokens ===
+XYZ Hospital / XYZ      -> hospital name
+[City] [State] [Area]   -> location (also in title, meta, schema, footer)
++91 00000 00000         -> display phone      | +910000000000 / 910000000000 -> tel/WhatsApp number
+yourdomain.com          -> website URL
+Colors: edit :root variables (--blue, --teal, --red) in <style>
+Also replace: doctors, OPD timings, reviews, NABH/Ayushman/TPA claims (verify before publishing)
+-->
+
+<div class="top"><div class="w"><span>🚨 24x7 Emergency: <b>+91 00000 00000</b></span><span>OPD: Mon–Sat, 9 AM – 7 PM &nbsp;|&nbsp; [City], [State]</span></div></div>
+<header><div class="w">
+<a href="#" class="logo">XYZ <span>Hospital</span></a>
+<button class="mt" aria-label="Menu"><i></i><i></i><i></i></button>
+<nav>
+<a href="#departments">Departments</a><a href="#doctors">Doctors</a><a href="#facilities">Facilities</a><a href="#reviews">Reviews</a><a href="#contact">Contact</a>
+<a href="#appointment" class="btn b-blue">Book Appointment</a>
+</nav></div></header>
+
+<section class="hero"><div class="w hg">
+<div>
+<span class="tag">🏥 Trusted Care in [City]</span>
+<h1>[City] ka bharosemand hospital — <em>24x7</em> aapki seva mein</h1>
+<p>Experienced doctors, modern ICU aur diagnostics, Ayushman Bharat aur cashless TPA support — ek hi chhat ke neeche.</p>
+<div class="cta">
+<a href="tel:+910000000000" class="btn b-red">📞 Emergency Call</a>
+<a href="#appointment" class="btn b-blue">📅 Book Appointment</a>
+<a href="https://wa.me/910000000000" class="btn b-wa">💬 WhatsApp</a>
+</div></div>
+<div class="hc rv">
+<div class="r"><div class="ic">🚑</div><div><b>24x7 Emergency</b><small>Ambulance &amp; trauma care</small></div></div>
+<div class="r"><div class="ic">🩺</div><div><b>Expert Doctors</b><small>Har department mein specialist</small></div></div>
+<div class="r"><div class="ic">💳</div><div><b>Cashless &amp; Ayushman</b><small>TPA / insurance desk available</small></div></div>
+</div></div></section>
+
+<div class="trust"><div class="w"><span>NABH Standards</span><span>Ayushman Bharat Empanelled</span><span>Cashless TPA Support</span><span>24x7 ICU &amp; Pharmacy</span></div></div>
+<!-- Verify NABH / Ayushman / TPA claims before publishing -->
+
+<section class="sec" id="departments"><div class="w">
+<div class="sh rv"><small>Departments</small><h2>Complete care, ek jagah</h2><p>Aapki har health need ke liye specialist team.</p></div>
+<div class="g">
+<div class="c rv"><div class="ic">🩺</div><h3>General Medicine</h3><p>Fever, diabetes, BP aur regular checkups.</p></div>
+<div class="c rv"><div class="ic">🦴</div><h3>Orthopaedics</h3><p>Fracture, joint pain aur bone care.</p></div>
+<div class="c rv"><div class="ic">🤰</div><h3>Gynaecology</h3><p>Maternity, delivery aur women's health.</p></div>
+<div class="c rv"><div class="ic">👶</div><h3>Paediatrics</h3><p>Bachchon ka complete healthcare.</p></div>
+<div class="c rv"><div class="ic">🔬</div><h3>General Surgery</h3><p>Safe procedures, modern OT.</p></div>
+<div class="c rv"><div class="ic">🫀</div><h3>Cardiology</h3><p>Heart checkup aur ECG support.</p></div>
+<div class="c rv"><div class="ic">👂</div><h3>ENT</h3><p>Kaan, naak aur gale ka ilaaj.</p></div>
+<div class="c rv"><div class="ic">🧪</div><h3>Pathology Lab</h3><p>Fast aur accurate reports.</p></div>
+</div></div></section>
+
+<section class="sec alt" id="doctors"><div class="w">
+<div class="sh rv"><small>Our Doctors</small><h2>Experienced aur caring team</h2><p>Qualification aur OPD timings ek nazar mein.</p></div>
+<div class="g">
+<!-- Replace with real doctor names, qualifications and OPD timings -->
+<div class="c dr rv"><div class="av">Dr</div><h3>Dr. [Doctor Name]</h3><div class="q">MBBS, MD (Medicine)</div><p>General Medicine</p><div class="t">🕐 OPD: Mon–Sat, 10 AM – 2 PM</div></div>
+<div class="c dr rv"><div class="av">Dr</div><h3>Dr. [Doctor Name]</h3><div class="q">MBBS, MS (Orthopaedics)</div><p>Orthopaedics</p><div class="t">🕐 OPD: Mon–Sat, 4 PM – 7 PM</div></div>
+<div class="c dr rv"><div class="av">Dr</div><h3>Dr. [Doctor Name]</h3><div class="q">MBBS, MS (Obs &amp; Gynae)</div><p>Gynaecology</p><div class="t">🕐 OPD: Mon–Sat, 11 AM – 3 PM</div></div>
+</div></div></section>
+
+<section class="sec" id="facilities"><div class="w">
+<div class="sh rv"><small>Facilities</small><h2>Modern suvidhayein, har waqt</h2></div>
+<div class="g">
+<div class="c rv"><div class="ic">🚨</div><h3>24x7 Emergency</h3><p>Hamesha ready trauma &amp; emergency unit.</p></div>
+<div class="c rv"><div class="ic">🛏️</div><h3>ICU &amp; Wards</h3><p>Clean, comfortable private aur general wards.</p></div>
+<div class="c rv"><div class="ic">🚑</div><h3>Ambulance</h3><p>Fast pickup aur safe transfer.</p></div>
+<div class="c rv"><div class="ic">💊</div><h3>24x7 Pharmacy</h3><p>Sabhi zaroori dawaiyan hospital mein.</p></div>
+<div class="c rv"><div class="ic">🩻</div><h3>X-Ray &amp; Diagnostics</h3><p>In-house imaging aur lab tests.</p></div>
+<div class="c rv"><div class="ic">🏥</div><h3>Modern OT</h3><p>Sterile operation theatre setup.</p></div>
+</div></div></section>
+
+<section class="sec alt" id="reviews"><div class="w">
+<div class="sh rv"><small>Patient Reviews</small><h2>Marijon ka bharosa</h2></div>
+<div class="g">
+<!-- Replace with real Google reviews (with permission) -->
+<div class="c rvw rv"><div class="st">★★★★★</div><p>"Staff bahut cooperative tha aur doctor ne achhe se samjhaya."</p><small>— Patient, [City]</small></div>
+<div class="c rvw rv"><div class="st">★★★★★</div><p>"Emergency mein turant treatment shuru ho gaya."</p><small>— Patient family, [City]</small></div>
+<div class="c rvw rv"><div class="st">★★★★★</div><p>"Clean hospital aur reasonable charges."</p><small>— Patient, [City]</small></div>
+</div></div></section>
+
+<section class="sec"><div class="w">
+<div class="sh rv"><small>Gallery</small><h2>Hospital ki ek jhalak</h2></div>
+<div class="tabs"><button class="tab on" data-f="all">All</button><button class="tab" data-f="b">Building</button><button class="tab" data-f="w">Wards</button><button class="tab" data-f="e">Equipment</button></div>
+<div class="g" id="gal">
+<div class="gi" data-c="b">Hospital Building</div><div class="gi" data-c="b">Reception</div>
+<div class="gi" data-c="w">Private Ward</div><div class="gi" data-c="w">ICU</div>
+<div class="gi" data-c="e">X-Ray Unit</div><div class="gi" data-c="e">Pathology Lab</div>
+</div></div></section>
+
+<section class="sec alt" id="appointment"><div class="w bk">
+<div id="contact">
+<h2>Appointment book karein</h2>
+<p>Form bharein — request seedha hamare WhatsApp par pahunch jaayegi.</p>
+<div class="ct">
+<div><b>📍 Address</b><span>XYZ Hospital, [Area], [City], [State]</span></div>
+<div><b>📞 Phone</b><span><a href="tel:+910000000000">+91 00000 00000</a></span></div>
+<div><b>💬 WhatsApp</b><span><a href="https://wa.me/910000000000">Chat with us</a></span></div>
+<div><b>🕐 OPD</b><span>Mon–Sat, 9 AM – 7 PM · Emergency 24x7</span></div>
+</div>
+<a class="map" href="https://www.google.com/maps/search/?api=1&query=XYZ+Hospital+City" target="_blank" rel="noopener"><span class="btn b-out">📍 Google Maps par dekhein</span></a>
+</div>
+<form id="bf" novalidate>
+<div class="f"><label for="n">Patient Name</label><input id="n" placeholder="Poora naam"><div class="em">Naam zaroori hai</div></div>
+<div class="f"><label for="p">Phone Number</label><input id="p" type="tel" placeholder="+91 00000 00000"><div class="em">Sahi 10-digit number likhein</div></div>
+<div class="f"><label for="d">Department</label><select id="d"><option value="">-- Select --</option><option>General Medicine</option><option>Orthopaedics</option><option>Gynaecology</option><option>Paediatrics</option><option>General Surgery</option><option>Cardiology</option><option>ENT</option></select><div class="em">Department chunein</div></div>
+<div class="f"><label for="dt">Preferred Date</label><input id="dt" type="date"></div>
+<button class="btn b-wa" style="width:100%;justify-content:center" type="submit">💬 Send on WhatsApp</button>
+</form></div></section>
+
+<footer><div class="w">
+<div class="fg">
+<div><h4>XYZ Hospital</h4><p>Best hospital in [City] for emergency, maternity, orthopaedic aur general care. [Area], [City], [State].</p></div>
+<div><h4>Quick Links</h4><ul><li><a href="#departments">Departments</a></li><li><a href="#doctors">Doctors</a></li><li><a href="#facilities">Facilities</a></li><li><a href="#reviews">Reviews</a></li></ul></div>
+<div><h4>Contact</h4><ul><li><a href="tel:+910000000000">+91 00000 00000</a></li><li><a href="https://wa.me/910000000000">WhatsApp</a></li><li>[City], [State]</li></ul></div>
+</div>
+<div class="cp">© 2026 XYZ Hospital. All rights reserved.</div>
+</div></footer>
+
+<div class="bar"><a href="tel:+910000000000" style="color:var(--red)">📞 Emergency</a><a href="https://wa.me/910000000000" style="color:#1a9e4d">💬 WhatsApp</a><a href="#appointment" style="color:var(--blue)">📅 Book</a></div>
+
+<script>
+(function(){
+var WA='910000000000',$=function(s){return document.querySelector(s)},A=function(s){return document.querySelectorAll(s)};
+var mt=$('.mt'),nv=$('nav');
+mt.onclick=function(){nv.classList.toggle('o')};
+A('nav a').forEach(function(a){a.onclick=function(){nv.classList.remove('o')}});
+if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12});A('.rv').forEach(function(el,i){el.style.transitionDelay=(i%4)*70+'ms';io.observe(el)})}else{A('.rv').forEach(function(el){el.classList.add('in')})}
+A('.tab').forEach(function(t){t.onclick=function(){A('.tab').forEach(function(x){x.classList.remove('on')});t.classList.add('on');var f=t.dataset.f;A('#gal .gi').forEach(function(g){g.classList.toggle('h',f!=='all'&&g.dataset.c!==f)})}});
+$('#bf').onsubmit=function(e){e.preventDefault();var n=$('#n'),p=$('#p'),d=$('#d'),ok=true;
+function chk(el,bad){el.parentNode.classList.toggle('e',bad);if(bad)ok=false}
+chk(n,!n.value.trim());chk(p,p.value.replace(/\D/g,'').length<10);chk(d,!d.value);
+if(!ok)return;
+var m='Namaste, appointment chahiye.%0AName: '+encodeURIComponent(n.value.trim())+'%0APhone: '+encodeURIComponent(p.value.trim())+'%0ADepartment: '+encodeURIComponent(d.value)+($('#dt').value?'%0ADate: '+$('#dt').value:'');
+window.open('https://wa.me/'+WA+'?text='+m,'_blank');
+};
+})();
+</script>
+</body>
+</html>
